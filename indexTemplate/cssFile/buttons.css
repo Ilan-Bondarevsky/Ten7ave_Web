@@ -1,0 +1,42 @@
+#unity-fullscreen-button {
+    cursor: point; 
+    bottom: 1%; 
+    right: 1%; 
+    width: 38px; 
+    height: 38px; 
+    margin: 0; 
+    padding: 0; 
+    position: absolute; 
+}
+#share-button {
+    cursor: point; 
+    top: 1%; 
+    right: 1%; 
+    width: 38px; 
+    height: 38px; 
+    margin: 0; 
+    padding: 0; 
+    position: absolute; 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-share {
+    background: #CBC7C7;
+    color: #000000;
+}
+.fa-expand {
+    background: #CBC7C7;
+    color: #000000;
+}
+.fa-link {
+    background: #CBC7C7;
+    color: #000000;
+}
