@@ -5,7 +5,7 @@ game_container.forEach(
             child.onclick = function(){
                 var message = child.getAttribute("data-value")
 
-                // Send `message` to the parent using the postMessage method on the window.parent reference.
+                //  Send `message` to the parent using the postMessage method on the window.parent reference.
                 window.parent.postMessage(message, "*");
             }
         }
