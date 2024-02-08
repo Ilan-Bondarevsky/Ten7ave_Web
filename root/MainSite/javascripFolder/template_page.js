@@ -9,7 +9,7 @@ var logo_element = document.querySelector("#logo")
 for (let i = 0; i < pages.length; i++) {
     pages[i][2] = document.querySelector("#" + pages[i][1] + "-button")
     pages[i][2].onclick = function () {
-        iframe_element.src = "./" + pages[i][0]
+        iframe_element.src = "./pagesFolder/" + pages[i][0]
         logo_element.innerHTML = pages[i][1].replace('_', ' ')
     }
 }
